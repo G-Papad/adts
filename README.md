@@ -1,1 +1,5 @@
-# adts
+This project aims to demonstrate the capabilities of Trino, a distributed SQL query engine, to connect and query data from three different databases: MongoDB, Redis, and Cassandra. By leveraging Trino's ability to connect to multiple data sources simultaneously, this project seeks to create a unified view of the data stored in these three databases and enable users to query all of them using a single interface.
+
+The project involves setting up and configuring Trino to connect to each of the databases and designing queries that span multiple data sources. The queries will be optimized for performance, taking advantage of Trino's ability to push down filters and aggregations to the underlying databases, minimizing data transfer across the network.
+
+This project will demonstrate the potential of Trino to act as a federated query engine for disparate data sources, enabling users to analyze and gain insights from data that might otherwise be siloed across different databases. Additionally, it will showcase the ability of Trino to handle large-scale data processing and provide users with fast, accurate, and real-time results. Overall, this project will serve as a proof-of-concept for the power and flexibility of Trino in solving complex data integration challenges.
